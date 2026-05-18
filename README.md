@@ -31,7 +31,7 @@ building risk counts (426,661 footprints), and a full statistical analysis.
 │   ├── yangon_seismic_analysis.py   # Complete Python analysis pipeline
 │   └── requirements.txt             # Python dependencies
 ├── data/
-│   ├── yangon_mw52_microzonation.kml  # Source station data (KML)
+│   ├── yangon_mw52_microzonation.kml  # Source station data — Geographical Society of Myanmar
 │   └── stations_data.csv              # Processed station table
 ├── docs/                            # GitHub Pages site root
 │   ├── index.html                   # Report website (all sections)
@@ -131,6 +131,14 @@ shapely >= 2.0
 ```
 
 Python 3.10 or later recommended.
+
+---
+
+## Data attribution
+
+Station data (KML) provided by the **Geographical Society of Myanmar**.
+Please credit the Geographical Society of Myanmar in any publication or
+derivative work that uses this dataset.
 
 ---
 

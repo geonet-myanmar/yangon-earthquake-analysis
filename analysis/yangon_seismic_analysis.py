@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
 Yangon Mw5.2 Seismic Microzonation — Complete Analysis Pipeline
+
+Station data source: Geographical Society of Myanmar
+  Yangon Mw5.2 Shake Feel Level 1-5 Microzonation (KML dataset)
+
 Analyses:
   1. Geospatial Map  (IDW surface + building footprint overlay)
   2. Ground Motion Attenuation  (PGA/PGV vs distance, site amplification)
