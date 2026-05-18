@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Yangon Mw5.2 Shake Feel Level 1-5 Microzonation</name>
+	<description>Preliminary microzonation simulation layer for Mw5.2 south of Yangon. Level 5/4 = shake and sway strong; Level 3 = shake felt not strong; Level 2/1 = just feeling.</description>
+	<Style id="level5">
+		<IconStyle>
+			<color>ff0000cc</color>
+			<scale>1.35</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.75</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="level2">
+		<IconStyle>
+			<color>ff00cc66</color>
+			<scale>0.99</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.75</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="level3">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.11</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.75</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="level4">
+		<IconStyle>
+			<color>ff0066ff</color>
+			<scale>1.23</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.75</scale>
+		</LabelStyle>
+	</Style>
+	<Folder id="081E7B80263F6ECEC8FD">
+		<name>Shake / Feel Level 1-5 Points</name>
+		<Placemark id="10E4B7551B3F6ECEC8FD">
+			<name>L4 | SP01 RDEF5-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 4<br/>
+    <b>Description:</b> 4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil<br/>
+    <b>Action:</b> Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP01 RDEF5-3D<br/>
+    <b>Zone:</b> Zone 1 - Basin Core<br/>
+    <b>Hybrid Resonance Hazard:</b> Very High<br/>
+    <b>Estimated MMI:</b> V to VI<br/>
+    <b>Repi km:</b> 41.60613477618536<br/>
+    <b>M5.2 PGA g:</b> 0.0483<br/>
+    <b>M5.2 PGV cm/s:</b> 5.88<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 3 - Site-specific spectrum required<br/>]]></description>
+			<styleUrl>#level4</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>4</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>V to VI</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Very High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0483</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>5.88</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.10164</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.1306199999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.07728</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>41.60613477618536</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 1 - Basin Core</value>
+				</Data>
+				<Data name="Risk">
+					<value>Very High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>E - Very Soft / Basin</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 3 - Site-specific spectrum required</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.17125400000002,16.930067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2C1E5D45373F6ECEC8FD">
+			<name>L3 | SP02 RCAF2-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 3<br/>
+    <b>Description:</b> 3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings<br/>
+    <b>Action:</b> Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP02 RCAF2-3D<br/>
+    <b>Zone:</b> Zone 2 - Mixed Urban<br/>
+    <b>Hybrid Resonance Hazard:</b> High<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 43.16774934090928<br/>
+    <b>M5.2 PGA g:</b> 0.0357<br/>
+    <b>M5.2 PGV cm/s:</b> 4.41<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level3</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>3</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0357</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>4.41</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.08904</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.05544</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.02688</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>43.16774934090928</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 2 - Mixed Urban</value>
+				</Data>
+				<Data name="Risk">
+					<value>High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.169725,16.94594,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3FEDB0323D3F6ECEC8FD">
+			<name>L3 | SP04 RCAF2-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 3<br/>
+    <b>Description:</b> 3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings<br/>
+    <b>Action:</b> Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP04 RCAF2-3D<br/>
+    <b>Zone:</b> Zone 2 - Mixed Urban<br/>
+    <b>Hybrid Resonance Hazard:</b> High<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 35.18497689644124<br/>
+    <b>M5.2 PGA g:</b> 0.0357<br/>
+    <b>M5.2 PGV cm/s:</b> 4.41<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level3</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>3</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0357</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>4.41</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.08904</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.05544</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.02688</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>35.18497689644124</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 2 - Mixed Urban</value>
+				</Data>
+				<Data name="Risk">
+					<value>High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.09184400000001,16.756232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="49D40828CC3F6ECEC8FD">
+			<name>L2 | SP05 R3AA4-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 2<br/>
+    <b>Description:</b> 2 - Light feeling only; weak movement, some people feel it indoors<br/>
+    <b>Action:</b> Low concern: keep as felt-report control points.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP05 R3AA4-3D<br/>
+    <b>Zone:</b> Zone 3 - Baseline/Stiffer<br/>
+    <b>Hybrid Resonance Hazard:</b> Moderate<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 36.74352025994278<br/>
+    <b>M5.2 PGA g:</b> 0.0251999999999999<br/>
+    <b>M5.2 PGV cm/s:</b> 2.94<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level2</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>2</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>2 - Light feeling only; weak movement, some people feel it indoors</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Low concern: keep as felt-report control points.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Moderate</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0251999999999999</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>2.94</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.0604799999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.02268</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.00966</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>36.74352025994278</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 3 - Baseline/Stiffer</value>
+				</Data>
+				<Data name="Risk">
+					<value>Moderate</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.13727230000001,16.844978217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="58ED97F81D3F6ECEC8FD">
+			<name>L3 | SP06 RCAF2-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 3<br/>
+    <b>Description:</b> 3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings<br/>
+    <b>Action:</b> Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP06 RCAF2-3D<br/>
+    <b>Zone:</b> Zone 2 - Mixed Urban<br/>
+    <b>Hybrid Resonance Hazard:</b> High<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 47.25664550798516<br/>
+    <b>M5.2 PGA g:</b> 0.0357<br/>
+    <b>M5.2 PGV cm/s:</b> 4.41<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level3</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>3</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0357</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>4.41</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.08904</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.05544</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.02688</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>47.25664550798516</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 2 - Mixed Urban</value>
+				</Data>
+				<Data name="Risk">
+					<value>High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.02848000000002,16.866508,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="66267AF24B3F6ECEC8FD">
+			<name>L4 | SP07 RDEF5-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 4<br/>
+    <b>Description:</b> 4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil<br/>
+    <b>Action:</b> Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP07 RDEF5-3D<br/>
+    <b>Zone:</b> Zone 1 - Basin Core<br/>
+    <b>Hybrid Resonance Hazard:</b> Very High<br/>
+    <b>Estimated MMI:</b> V to VI<br/>
+    <b>Repi km:</b> 47.25757476799579<br/>
+    <b>M5.2 PGA g:</b> 0.0483<br/>
+    <b>M5.2 PGV cm/s:</b> 5.88<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 3 - Site-specific spectrum required<br/>]]></description>
+			<styleUrl>#level4</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>4</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>V to VI</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Very High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0483</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>5.88</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.10164</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.1306199999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.07728</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>47.25757476799579</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 1 - Basin Core</value>
+				</Data>
+				<Data name="Risk">
+					<value>Very High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>E - Very Soft / Basin</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 3 - Site-specific spectrum required</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.028502733,16.866553033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7527AF24623F6ECEC8FD">
+			<name>L3 | SP08 RCAF2-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 3<br/>
+    <b>Description:</b> 3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings<br/>
+    <b>Action:</b> Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP08 RCAF2-3D<br/>
+    <b>Zone:</b> Zone 2 - Mixed Urban<br/>
+    <b>Hybrid Resonance Hazard:</b> High<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 38.67008613212806<br/>
+    <b>M5.2 PGA g:</b> 0.0357<br/>
+    <b>M5.2 PGV cm/s:</b> 4.41<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level3</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>3</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0357</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>4.41</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.08904</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.05544</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.02688</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>38.67008613212806</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 2 - Mixed Urban</value>
+				</Data>
+				<Data name="Risk">
+					<value>High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.17659595000001,16.901405283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="881FD627A53F6ECEC8FD">
+			<name>L4 | SP09 RDEF5-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 4<br/>
+    <b>Description:</b> 4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil<br/>
+    <b>Action:</b> Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP09 RDEF5-3D<br/>
+    <b>Zone:</b> Zone 1 - Basin Core<br/>
+    <b>Hybrid Resonance Hazard:</b> Very High<br/>
+    <b>Estimated MMI:</b> V to VI<br/>
+    <b>Repi km:</b> 37.9558615887825<br/>
+    <b>M5.2 PGA g:</b> 0.0483<br/>
+    <b>M5.2 PGV cm/s:</b> 5.88<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 3 - Site-specific spectrum required<br/>]]></description>
+			<styleUrl>#level4</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>4</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>V to VI</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Very High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0483</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>5.88</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.10164</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.1306199999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.07728</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>37.9558615887825</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 1 - Basin Core</value>
+				</Data>
+				<Data name="Risk">
+					<value>Very High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>E - Very Soft / Basin</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 3 - Site-specific spectrum required</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.212145467,16.91583303,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="96F133571C3F6ECEC8FD">
+			<name>L2 | SP10 R3AA4-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 2<br/>
+    <b>Description:</b> 2 - Light feeling only; weak movement, some people feel it indoors<br/>
+    <b>Action:</b> Low concern: keep as felt-report control points.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP10 R3AA4-3D<br/>
+    <b>Zone:</b> Zone 3 - Baseline/Stiffer<br/>
+    <b>Hybrid Resonance Hazard:</b> Moderate<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 33.84665088597496<br/>
+    <b>M5.2 PGA g:</b> 0.0251999999999999<br/>
+    <b>M5.2 PGV cm/s:</b> 2.94<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level2</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>2</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>2 - Light feeling only; weak movement, some people feel it indoors</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Low concern: keep as felt-report control points.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Moderate</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0251999999999999</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>2.94</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.0604799999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.02268</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.00966</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>33.84665088597496</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 3 - Baseline/Stiffer</value>
+				</Data>
+				<Data name="Risk">
+					<value>Moderate</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.175905117,16.84498045,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="A74BF283803F6ECEC8FD">
+			<name>L2 | SP11 R3AA4-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 2<br/>
+    <b>Description:</b> 2 - Light feeling only; weak movement, some people feel it indoors<br/>
+    <b>Action:</b> Low concern: keep as felt-report control points.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP11 R3AA4-3D<br/>
+    <b>Zone:</b> Zone 3 - Baseline/Stiffer<br/>
+    <b>Hybrid Resonance Hazard:</b> Moderate<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 32.17888385041037<br/>
+    <b>M5.2 PGA g:</b> 0.0251999999999999<br/>
+    <b>M5.2 PGV cm/s:</b> 2.94<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level2</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>2</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>2 - Light feeling only; weak movement, some people feel it indoors</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Low concern: keep as felt-report control points.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Moderate</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0251999999999999</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>2.94</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.0604799999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.02268</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.00966</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>32.17888385041037</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 3 - Baseline/Stiffer</value>
+				</Data>
+				<Data name="Risk">
+					<value>Moderate</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.21897600000001,16.858589,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="B72AA522273F6ECEC8FD">
+			<name>L4 | SP12 RCAF2-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 4<br/>
+    <b>Description:</b> 4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil<br/>
+    <b>Action:</b> Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP12 RCAF2-3D<br/>
+    <b>Zone:</b> Zone 2 - Mixed Urban<br/>
+    <b>Hybrid Resonance Hazard:</b> High<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 26.42981425830853<br/>
+    <b>M5.2 PGA g:</b> 0.0357<br/>
+    <b>M5.2 PGV cm/s:</b> 4.41<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level4</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>4</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0357</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>4.41</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.08904</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.05544</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.02688</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>26.42981425830853</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 2 - Mixed Urban</value>
+				</Data>
+				<Data name="Risk">
+					<value>High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.27398880000001,16.830124,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="C5296275A83F6ECEC8FD">
+			<name>L5 | SP13 RDEF5-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 5<br/>
+    <b>Description:</b> 5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway<br/>
+    <b>Action:</b> Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP13 RDEF5-3D<br/>
+    <b>Zone:</b> Zone 1 - Basin Core<br/>
+    <b>Hybrid Resonance Hazard:</b> Very High<br/>
+    <b>Estimated MMI:</b> V to VI<br/>
+    <b>Repi km:</b> 28.82520314037077<br/>
+    <b>M5.2 PGA g:</b> 0.0483<br/>
+    <b>M5.2 PGV cm/s:</b> 5.88<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 3 - Site-specific spectrum required<br/>]]></description>
+			<styleUrl>#level5</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>5</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>V to VI</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Very High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0483</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>5.88</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.10164</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.1306199999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.07728</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>28.82520314037077</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 1 - Basin Core</value>
+				</Data>
+				<Data name="Risk">
+					<value>Very High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>E - Very Soft / Basin</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 3 - Site-specific spectrum required</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.210868967,16.8143398,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="D74013FE493F6ECEC8FD">
+			<name>L5 | SP14 RDEF5-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 5<br/>
+    <b>Description:</b> 5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway<br/>
+    <b>Action:</b> Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP14 RDEF5-3D<br/>
+    <b>Zone:</b> Zone 1 - Basin Core<br/>
+    <b>Hybrid Resonance Hazard:</b> Very High<br/>
+    <b>Estimated MMI:</b> V to VI<br/>
+    <b>Repi km:</b> 28.765676718958247<br/>
+    <b>M5.2 PGA g:</b> 0.0483<br/>
+    <b>M5.2 PGV cm/s:</b> 5.88<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 3 - Site-specific spectrum required<br/>]]></description>
+			<styleUrl>#level5</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>5</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>V to VI</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Very High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0483</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>5.88</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.10164</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.1306199999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.07728</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>28.765676718958247</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 1 - Basin Core</value>
+				</Data>
+				<Data name="Risk">
+					<value>Very High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>E - Very Soft / Basin</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 3 - Site-specific spectrum required</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.19636143300001,16.800354283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="E4CF2D7D613F6ECEC8FD">
+			<name>L2 | SP15 R3AA4-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 2<br/>
+    <b>Description:</b> 2 - Light feeling only; weak movement, some people feel it indoors<br/>
+    <b>Action:</b> Low concern: keep as felt-report control points.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP15 R3AA4-3D<br/>
+    <b>Zone:</b> Zone 3 - Baseline/Stiffer<br/>
+    <b>Hybrid Resonance Hazard:</b> Moderate<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 29.455190170057225<br/>
+    <b>M5.2 PGA g:</b> 0.0251999999999999<br/>
+    <b>M5.2 PGV cm/s:</b> 2.94<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level2</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>2</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>2 - Light feeling only; weak movement, some people feel it indoors</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Low concern: keep as felt-report control points.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Moderate</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0251999999999999</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>2.94</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.0604799999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.02268</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.00966</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>29.455190170057225</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 3 - Baseline/Stiffer</value>
+				</Data>
+				<Data name="Risk">
+					<value>Moderate</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.17491698300002,16.786526807,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="F5DC9E3C3D3F6ECEC8FD">
+			<name>L3 | SP17 R3AA4-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 3<br/>
+    <b>Description:</b> 3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings<br/>
+    <b>Action:</b> Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP17 R3AA4-3D<br/>
+    <b>Zone:</b> Zone 3 - Baseline/Stiffer<br/>
+    <b>Hybrid Resonance Hazard:</b> Moderate<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 19.981901130977292<br/>
+    <b>M5.2 PGA g:</b> 0.0251999999999999<br/>
+    <b>M5.2 PGV cm/s:</b> 2.94<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level3</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>3</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Moderate</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0251999999999999</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>2.94</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.0604799999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.02268</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.00966</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>19.981901130977292</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 3 - Baseline/Stiffer</value>
+				</Data>
+				<Data name="Risk">
+					<value>Moderate</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.262731867,16.752025767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10A374550F73F6ECEC8FD">
+			<name>L5 | SP18 RDEF5-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 5<br/>
+    <b>Description:</b> 5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway<br/>
+    <b>Action:</b> Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP18 RDEF5-3D<br/>
+    <b>Zone:</b> Zone 1 - Basin Core<br/>
+    <b>Hybrid Resonance Hazard:</b> Very High<br/>
+    <b>Estimated MMI:</b> V to VI<br/>
+    <b>Repi km:</b> 27.8874032961066<br/>
+    <b>M5.2 PGA g:</b> 0.0483<br/>
+    <b>M5.2 PGV cm/s:</b> 5.88<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 3 - Site-specific spectrum required<br/>]]></description>
+			<styleUrl>#level5</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>5</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>V to VI</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Very High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0483</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>5.88</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.10164</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.1306199999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.07728</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>27.8874032961066</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 1 - Basin Core</value>
+				</Data>
+				<Data name="Risk">
+					<value>Very High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>E - Very Soft / Basin</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 3 - Site-specific spectrum required</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.21837298299999,16.80942035,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="110280A410F3F6ECEC8FD">
+			<name>L3 | SP19 RCAF2-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 3<br/>
+    <b>Description:</b> 3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings<br/>
+    <b>Action:</b> Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP19 RCAF2-3D<br/>
+    <b>Zone:</b> Zone 2 - Mixed Urban<br/>
+    <b>Hybrid Resonance Hazard:</b> High<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 38.28515836046128<br/>
+    <b>M5.2 PGA g:</b> 0.0357<br/>
+    <b>M5.2 PGV cm/s:</b> 4.41<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level3</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>3</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0357</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>4.41</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.08904</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.05544</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.02688</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>38.28515836046128</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 2 - Mixed Urban</value>
+				</Data>
+				<Data name="Risk">
+					<value>High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.135579183,16.86328655,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="127D98283043F6ECEC8FD">
+			<name>L4 | SP20 RCAF2-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 4<br/>
+    <b>Description:</b> 4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil<br/>
+    <b>Action:</b> Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP20 RCAF2-3D<br/>
+    <b>Zone:</b> Zone 2 - Mixed Urban<br/>
+    <b>Hybrid Resonance Hazard:</b> High<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 30.55997689150576<br/>
+    <b>M5.2 PGA g:</b> 0.0357<br/>
+    <b>M5.2 PGV cm/s:</b> 4.41<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level4</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>4</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>4 - Strong felt shake/sway; noticeable building response, especially upper floors and soft soil</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Watch: collect felt reports; inspect vulnerable masonry/soft-storey buildings if complaints occur.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0357</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>4.41</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.08904</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.05544</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.02688</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>30.55997689150576</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 2 - Mixed Urban</value>
+				</Data>
+				<Data name="Risk">
+					<value>High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.18047300000001,16.807783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1300308B2D73F6ECEC8FD">
+			<name>L5 | SP21 RDEF5-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 5<br/>
+    <b>Description:</b> 5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway<br/>
+    <b>Action:</b> Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP21 RDEF5-3D<br/>
+    <b>Zone:</b> Zone 1 - Basin Core<br/>
+    <b>Hybrid Resonance Hazard:</b> Very High<br/>
+    <b>Estimated MMI:</b> V to VI<br/>
+    <b>Repi km:</b> 34.371263214085616<br/>
+    <b>M5.2 PGA g:</b> 0.0483<br/>
+    <b>M5.2 PGV cm/s:</b> 5.88<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 3 - Site-specific spectrum required<br/>]]></description>
+			<styleUrl>#level5</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>5</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>V to VI</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Very High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0483</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>5.88</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.10164</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.1306199999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.07728</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>34.371263214085616</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 1 - Basin Core</value>
+				</Data>
+				<Data name="Risk">
+					<value>Very High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>E - Very Soft / Basin</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 3 - Site-specific spectrum required</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.136183,16.81093,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="147566854203F6ECEC8FD">
+			<name>L3 | SP23 RCAF2-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 3<br/>
+    <b>Description:</b> 3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings<br/>
+    <b>Action:</b> Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP23 RCAF2-3D<br/>
+    <b>Zone:</b> Zone 2 - Mixed Urban<br/>
+    <b>Hybrid Resonance Hazard:</b> High<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 34.6167209390783<br/>
+    <b>M5.2 PGA g:</b> 0.0357<br/>
+    <b>M5.2 PGV cm/s:</b> 4.41<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level3</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>3</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>3 - Shaking felt but not strong; short vibration/sway, low damage concern but check weak/soft-storey buildings</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Normal monitoring: shaking expected but not strong; useful for response-spectrum calibration.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0357</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>4.41</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.08904</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.05544</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.02688</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>34.6167209390783</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 2 - Mixed Urban</value>
+				</Data>
+				<Data name="Risk">
+					<value>High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.12262428699999,16.7970224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1542ED346653F6ECEC8FD">
+			<name>L2 | SP24 R3AA4-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 2<br/>
+    <b>Description:</b> 2 - Light feeling only; weak movement, some people feel it indoors<br/>
+    <b>Action:</b> Low concern: keep as felt-report control points.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP24 R3AA4-3D<br/>
+    <b>Zone:</b> Zone 3 - Baseline/Stiffer<br/>
+    <b>Hybrid Resonance Hazard:</b> Moderate<br/>
+    <b>Estimated MMI:</b> IV to V<br/>
+    <b>Repi km:</b> 32.752796707409<br/>
+    <b>M5.2 PGA g:</b> 0.0251999999999999<br/>
+    <b>M5.2 PGV cm/s:</b> 2.94<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 2 - Site-adjusted MNBC spectrum<br/>]]></description>
+			<styleUrl>#level2</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>2</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>2 - Light feeling only; weak movement, some people feel it indoors</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Low concern: keep as felt-report control points.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>IV to V</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Moderate</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0251999999999999</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>2.94</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.0604799999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.02268</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.00966</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>32.752796707409</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 3 - Baseline/Stiffer</value>
+				</Data>
+				<Data name="Risk">
+					<value>Moderate</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>D - Soft Soil</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 2 - Site-adjusted MNBC spectrum</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.157445017,16.812753933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="16A86DC4A853F6ECEC8FD">
+			<name>L5 | SP25 RDEF5-3D</name>
+			<description><![CDATA[<b>Shake / Feel Level:</b> 5<br/>
+    <b>Description:</b> 5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway<br/>
+    <b>Action:</b> Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.<br/>
+    <hr/>
+    <b>Station/Point:</b> SP25 RDEF5-3D<br/>
+    <b>Zone:</b> Zone 1 - Basin Core<br/>
+    <b>Hybrid Resonance Hazard:</b> Very High<br/>
+    <b>Estimated MMI:</b> V to VI<br/>
+    <b>Repi km:</b> 33.234292813117804<br/>
+    <b>M5.2 PGA g:</b> 0.0483<br/>
+    <b>M5.2 PGV cm/s:</b> 5.88<br/>
+    <b>MNBC 2025 Application Zone:</b> Zone 3 - Site-specific spectrum required<br/>]]></description>
+			<styleUrl>#level5</styleUrl>
+			<ExtendedData>
+				<Data name="Shake_Feel_Level_1to5">
+					<value>5</value>
+				</Data>
+				<Data name="Shake_Feel_Description">
+					<value>5 - Strong shake and strong sway; resonance-sensitive zone; people clearly feel movement, hanging objects/water may sway</value>
+				</Data>
+				<Data name="Action_By_Level">
+					<value>Priority: field check for soft-storey/mid-rise buildings; compare with station records and upper-floor reports.</value>
+				</Data>
+				<Data name="Today_MMI_est">
+					<value>V to VI</value>
+				</Data>
+				<Data name="Hybrid_Resonance_Hazard">
+					<value>Very High</value>
+				</Data>
+				<Data name="M5p2_PGA_g">
+					<value>0.0483</value>
+				</Data>
+				<Data name="M5p2_PGV_cm_s">
+					<value>5.88</value>
+				</Data>
+				<Data name="M5p2_Sa_0p3_g">
+					<value>0.10164</value>
+				</Data>
+				<Data name="M5p2_Sa_1p0_g">
+					<value>0.1306199999999999</value>
+				</Data>
+				<Data name="M5p2_Sa_2p0_g">
+					<value>0.07728</value>
+				</Data>
+				<Data name="Repi_km">
+					<value>33.234292813117804</value>
+				</Data>
+				<Data name="zone">
+					<value>Zone 1 - Basin Core</value>
+				</Data>
+				<Data name="Risk">
+					<value>Very High</value>
+				</Data>
+				<Data name="Hybrid_Site_Class">
+					<value>E - Very Soft / Basin</value>
+				</Data>
+				<Data name="MNBC2025_Application_Zone">
+					<value>Zone 3 - Site-specific spectrum required</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>96.16386199999998,16.825978,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

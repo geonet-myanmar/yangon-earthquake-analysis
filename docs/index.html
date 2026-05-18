@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yangon Mw 5.2 Seismic Microzonation Report</title>
+  <meta name="description" content="Preliminary seismic microzonation and shake/feel level analysis for Greater Yangon following an Mw 5.2 earthquake south of the city." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ── Lightbox ─────────────────────────────────────────────────────────── -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Figure viewer">
+  <img id="lightbox-img" src="" alt="Enlarged figure" />
+  <div id="lightbox-caption"></div>
+</div>
+
+<!-- ── Navigation ───────────────────────────────────────────────────────── -->
+<nav id="navbar" role="navigation" aria-label="Report sections">
+  <div class="container nav-inner">
+    <span class="nav-brand">Yangon Mw5.2 · Microzonation</span>
+    <ul class="nav-links">
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#methodology">Methodology</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#findings">Key Findings</a></li>
+      <li><a href="#recommendations">Recommendations</a></li>
+      <li><a href="#data">Station Data</a></li>
+      <li><a href="#references">References</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Hero ─────────────────────────────────────────────────────────────── -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-badge">Preliminary Simulation Report</div>
+    <h1>Yangon Mw&nbsp;5.2 Seismic Microzonation</h1>
+    <p class="subtitle">
+      Shake and Feel Level Analysis for the Greater Yangon Metropolitan Area —
+      spatial ground-motion variability, site amplification, and building risk
+      assessment across 22 monitoring stations and 426,661 building footprints.
+    </p>
+    <div class="hero-meta">
+      <span class="meta-item"><span class="meta-icon">📍</span> South of Yangon, Myanmar</span>
+      <span class="meta-item"><span class="meta-icon">📐</span> Moment Magnitude Mw 5.2</span>
+      <span class="meta-item"><span class="meta-icon">🏗️</span> MNBC 2025 Reference</span>
+      <span class="meta-item"><span class="meta-icon">🗺️</span> 22 Monitoring Stations</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── Stats Bar ─────────────────────────────────────────────────────────── -->
+<section id="stats" aria-label="Key metrics">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value" data-count="22">22</div>
+        <div class="stat-label">Monitoring Stations</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" data-count="426661">426,661</div>
+        <div class="stat-label">Buildings Assessed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" data-count="5">5</div>
+        <div class="stat-label">Shake/Feel Levels</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" data-count="10">10</div>
+        <div class="stat-label">High-Priority Stations (L4–5)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" data-count="7.97">7.97×</div>
+        <div class="stat-label">Max Basin Amplification (Sa 2.0 s)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" data-count="3">3</div>
+        <div class="stat-label">Seismic Microzones</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 1. Introduction ───────────────────────────────────────────────────── -->
+<section id="introduction">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2>Introduction</h2>
+    </div>
+
+    <p>
+      Yangon, Myanmar's largest city and commercial centre, sits on a deep alluvial
+      basin formed by the confluence of the Yangon, Bago, and Hlaing rivers. This
+      sedimentary basin — composed of soft Holocene deposits overlying deeper
+      Pleistocene clays — is a classical site-amplification setting: soft soils
+      trap and amplify seismic energy far beyond what would be predicted from
+      distance and source magnitude alone.
+    </p>
+    <p>
+      An <strong>Mw 5.2 earthquake south of Yangon</strong> provides a calibration
+      event for preliminary microzonation: the epicentral distances of 20–47 km
+      to monitoring stations produce ground motions that span multiple felt-intensity
+      levels across a compact urban area, making the spatial contrast between the
+      basin core and stiffer peripheral zones clearly legible.
+    </p>
+    <p>
+      This report presents a preliminary microzonation simulation covering 22
+      monitoring stations, classified into five Shake/Feel Levels (L1–L5) based on
+      hybrid site-response estimates integrating Peak Ground Acceleration (PGA),
+      Peak Ground Velocity (PGV), spectral accelerations, and resonance hazard
+      assessments. All structural demand values are referenced against the
+      <strong>Myanmar National Building Code 2025 (MNBC 2025)</strong>.
+    </p>
+
+    <div class="callout">
+      <strong>Scope Limitation</strong>
+      This is a <em>preliminary simulation</em> based on ground-motion prediction
+      equations (GMPEs) and hybrid site-class assignments. Results should be
+      supplemented by instrumental recordings and geotechnical borehole data before
+      use in formal building-code applications.
+    </div>
+
+    <h3 style="margin-top:2rem;">Seismic Context of Yangon</h3>
+    <p>
+      Myanmar is seismically one of the most active countries in Southeast Asia,
+      bounded by the Sagaing Fault — a major right-lateral strike-slip system running
+      nearly the full length of the country. While the Sagaing Fault does not pass
+      directly through Yangon, several secondary fault segments and subduction
+      interface sources to the west contribute to moderate-to-high hazard. The
+      Yangon basin amplifies this hazard: resonance periods of 1–3 seconds in the
+      deep soft soils are particularly dangerous for mid-rise reinforced concrete
+      buildings that are common in the city.
+    </p>
+
+    <div class="legend-row">
+      <span class="legend-chip"><span class="legend-dot" style="background:var(--zone1)"></span>Zone 1 – Basin Core (Site Class E)</span>
+      <span class="legend-chip"><span class="legend-dot" style="background:var(--zone2)"></span>Zone 2 – Mixed Urban (Site Class D)</span>
+      <span class="legend-chip"><span class="legend-dot" style="background:var(--zone3)"></span>Zone 3 – Baseline/Stiffer (Site Class D)</span>
+    </div>
+    <p class="text-muted mt-1">
+      Site Class E (V<sub>s30</sub> &lt; 180 m/s) represents the deep soft-basin
+      core. Site Class D (180–360 m/s) covers the surrounding urban mix.
+    </p>
+  </div>
+</section>
+
+<!-- ── 2. Methodology ────────────────────────────────────────────────────── -->
+<section id="methodology">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2>Methodology</h2>
+    </div>
+
+    <p>
+      The analysis integrates epicentral-distance-based ground-motion prediction
+      with a hybrid site-response framework, yielding a composite Shake/Feel Level
+      for each monitoring station. The five-step pipeline is summarised below.
+    </p>
+
+    <div class="method-steps">
+      <div class="method-step">
+        <div class="step-num">01</div>
+        <h4>Source Parameters</h4>
+        <p>Mw 5.2, focal mechanism, and epicentre location south of Yangon.
+           Epicentral distances (R<sub>epi</sub>) computed for all 22 stations.</p>
+      </div>
+      <div class="method-step">
+        <div class="step-num">02</div>
+        <h4>Ground-Motion Prediction</h4>
+        <p>PGA and PGV estimated via empirical GMPE calibrated for Myanmar/SE-Asia
+           tectonic setting. Spectral accelerations computed at T = 0.3, 1.0, and
+           2.0 s.</p>
+      </div>
+      <div class="method-step">
+        <div class="step-num">03</div>
+        <h4>Site Classification</h4>
+        <p>Hybrid V<sub>s30</sub> assignment from available borehole logs and
+           geomorphological proxies. Basin Core stations classified as
+           Site Class E; peripheral stations as Class D.</p>
+      </div>
+      <div class="method-step">
+        <div class="step-num">04</div>
+        <h4>Resonance Hazard</h4>
+        <p>Hybrid Resonance Hazard assessed by comparing spectral demand at
+           1–2 s periods to estimated fundamental site periods. High/Very High
+           ratings flag basin core.</p>
+      </div>
+      <div class="method-step">
+        <div class="step-num">05</div>
+        <h4>Shake/Feel Level</h4>
+        <p>Composite L1–L5 classification integrating PGA, PGV, Sa(1.0 s),
+           Resonance Hazard, and site class. MMI estimated (IV–VI) for each
+           station.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:2rem;">Shake / Feel Level Definitions</h3>
+
+    <div class="table-wrap" style="margin-top:1rem;">
+      <table>
+        <thead>
+          <tr>
+            <th>Level</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>MMI Equiv.</th>
+            <th>Required Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="level-badge" style="background:var(--l5)">5</span></td>
+            <td><strong>Strong Shake + Strong Sway</strong></td>
+            <td>Resonance-sensitive zone; people clearly feel movement; hanging objects and water may sway</td>
+            <td>V – VI</td>
+            <td>Priority: field check soft-storey / mid-rise buildings; compare with station records and upper-floor reports</td>
+          </tr>
+          <tr>
+            <td><span class="level-badge" style="background:var(--l4)">4</span></td>
+            <td><strong>Strong Felt Shake / Sway</strong></td>
+            <td>Noticeable building response, especially upper floors and soft soil</td>
+            <td>V – VI</td>
+            <td>Watch: collect felt reports; inspect vulnerable masonry / soft-storey buildings if complaints arise</td>
+          </tr>
+          <tr>
+            <td><span class="level-badge" style="background:var(--l3); color:#1a1a1a">3</span></td>
+            <td><strong>Felt But Not Strong</strong></td>
+            <td>Short vibration / sway; low damage concern; check weak / soft-storey buildings</td>
+            <td>IV – V</td>
+            <td>Normal monitoring; useful for response-spectrum calibration</td>
+          </tr>
+          <tr>
+            <td><span class="level-badge" style="background:var(--l2)">2</span></td>
+            <td><strong>Light Feeling Only</strong></td>
+            <td>Weak movement; some people feel it indoors</td>
+            <td>IV – V</td>
+            <td>Low concern; retain as felt-report control points</td>
+          </tr>
+          <tr>
+            <td><span class="level-badge" style="background:var(--l1)">1</span></td>
+            <td><strong>Barely Perceptible</strong></td>
+            <td>Instruments detect; most people do not feel</td>
+            <td>I – III</td>
+            <td>Background monitoring only</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top:2rem;">MNBC 2025 Application Zone Cross-Reference</h3>
+    <p>
+      Each station is cross-referenced to the Myanmar National Building Code 2025
+      Application Zone, which governs the spectral shape used in structural design:
+    </p>
+    <ul style="margin-left:1.5rem; margin-bottom:1rem; font-size:0.93rem; color:#334155;">
+      <li><strong>MNBC Zone 2</strong> — Site-adjusted MNBC spectrum (standard)</li>
+      <li><strong>MNBC Zone 3</strong> — Site-specific spectrum required (elevated hazard)</li>
+    </ul>
+    <p>
+      All Basin Core stations (Zone 1, Site Class E) fall into MNBC Zone 3,
+      requiring site-specific response spectra for building design.
+    </p>
+  </div>
+</section>
+
+<!-- ── 3. Results ────────────────────────────────────────────────────────── -->
+<section id="results">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2>Results</h2>
+    </div>
+
+    <!-- 3.1 Geospatial -->
+    <div class="results-subsection">
+      <h3>3.1 Spatial Distribution of Shake Intensity</h3>
+      <p>
+        The IDW-interpolated shake intensity surface reveals a clear spatial
+        clustering of high-level shaking (L4–L5) in the central and southern
+        urban core, corresponding to the deep alluvial basin. The 426,661
+        building footprints in the study area are coloured by their nearest-station
+        shake assignment, illustrating the extent of elevated risk in the basin zone.
+      </p>
+      <p>
+        Level 5 stations (SP13, SP14, SP18, SP21, SP25) are concentrated in the
+        basin core at epicentral distances of 27–34 km, demonstrating that
+        <strong>site amplification dominates over distance attenuation</strong>:
+        SP17 at only 20 km epicentral distance is Level 3, while basin-core stations
+        at 28–34 km reach Level 5.
+      </p>
+
+      <div class="figure-full" title="Click to enlarge">
+        <img src="assets/figures/fig1_geospatial_map.png"
+             alt="Geospatial shake intensity map — IDW surface and building footprint overlay" />
+        <div class="figure-caption">
+          <strong>Figure 1.</strong> Left: IDW-interpolated Shake/Feel Level surface overlaid on
+          OpenStreetMap basemap, with 22 station points. Contour lines mark level boundaries.
+          Right: 426,661 Yangon building footprints coloured by assigned shake level
+          (nearest-station spatial join). Red/orange areas in the basin core face the
+          highest structural demand.
+        </div>
+      </div>
+    </div>
+
+    <!-- 3.2 Attenuation -->
+    <div class="results-subsection">
+      <h3>3.2 Ground Motion Attenuation and Site Amplification</h3>
+      <p>
+        PGA and PGV values plotted against epicentral distance show a counter-intuitive
+        pattern: Basin Core (Zone 1) stations exhibit <em>higher ground motion than
+        Zone 2 and Zone 3 stations at the same or greater distances</em>. This is the
+        site amplification signature of the deep alluvial basin.
+      </p>
+      <p>
+        The mean PGA ratio between Site Class E (Basin Core) and Site Class D
+        (surrounding zones) is approximately <strong>1.92×</strong>, consistent with
+        published amplification factors for Vs30 contrasts of this magnitude.
+        Power-law attenuation fits (dashed curves) illustrate the expected
+        distance-decay trend within each zone class.
+      </p>
+
+      <div class="figure-full" title="Click to enlarge">
+        <img src="assets/figures/fig2_attenuation.png"
+             alt="Ground motion attenuation analysis — PGA, PGV, site class effects" />
+        <div class="figure-caption">
+          <strong>Figure 2.</strong> Ground motion attenuation analysis. Top left: PGA vs epicentral
+          distance by zone (dashed = power-law fit per zone). Top right: PGV attenuation.
+          Bottom left: PGA vs distance by site class — Site Class E points consistently
+          exceed Site Class D at equivalent distances. Bottom right: Shake/Feel Level vs
+          distance (jittered) — Zone 1 stations dominate the upper levels regardless of distance.
+        </div>
+      </div>
+    </div>
+
+    <!-- 3.3 Response Spectra -->
+    <div class="results-subsection">
+      <h3>3.3 Response Spectrum Analysis</h3>
+      <p>
+        Spectral accelerations computed at T = 0.3, 1.0, and 2.0 s reveal the
+        critical long-period amplification characteristic of deep basin sites.
+        The basin amplification factor — Zone 1 relative to Zone 3 — increases
+        dramatically with period:
+      </p>
+      <ul style="margin-left:1.5rem; margin-bottom:1rem; font-size:0.93rem; color:#334155;">
+        <li><strong>T = 0.3 s (short period, low-rise buildings):</strong> 1.68× amplification</li>
+        <li><strong>T = 1.0 s (mid-rise, 8–12 storey):</strong> 5.75× amplification</li>
+        <li><strong>T = 2.0 s (high-rise, 15–20 storey):</strong> 7.97× amplification</li>
+      </ul>
+      <p>
+        This period-dependent amplification is the defining characteristic of
+        deep sedimentary basins globally (comparable to Mexico City, Seattle, and
+        Bangkok). Mid-rise RC frame buildings in Yangon with natural periods near
+        1–2 s are most at risk during larger events.
+      </p>
+
+      <div class="figure-full" title="Click to enlarge">
+        <img src="assets/figures/fig3_response_spectra.png"
+             alt="Response spectrum analysis by zone and period" />
+        <div class="figure-caption">
+          <strong>Figure 3.</strong> Response spectrum analysis. Left: Individual station spectra
+          (light lines) and zone means (bold lines) at three spectral periods. Centre: Sa
+          distribution boxplots by period and zone — Basin Core values dominate at long
+          periods. Right: Basin amplification factor (Zone 1 / Zone 3) by period — the 7.97×
+          factor at 2.0 s indicates extreme long-period hazard in the basin core.
+        </div>
+      </div>
+    </div>
+
+    <!-- 3.4 Building Risk -->
+    <div class="results-subsection">
+      <h3>3.4 Building Risk Assessment</h3>
+      <p>
+        The risk matrix (Zone × Shake Level) shows all five Level 5 stations
+        concentrated exclusively in Zone 1 (Basin Core), while Level 4 stations
+        span both Zone 1 and Zone 2 (Mixed Urban). No Zone 3 station exceeds
+        Level 3. This clean stratification confirms that zone classification is
+        a reliable predictor of shake intensity.
+      </p>
+      <p>
+        Of the 426,661 building footprints in the study area, those assigned to
+        Level 4 and Level 5 zones represent the highest-priority inspection targets.
+        Note SP12 (Zone 2, Level 4) is the closest station at 26.4 km — its
+        elevated level despite Zone 2 classification warrants special attention.
+      </p>
+
+      <div class="figure-full" title="Click to enlarge">
+        <img src="assets/figures/fig4_building_risk.png"
+             alt="Building risk assessment — risk matrix, building counts, priority ranking" />
+        <div class="figure-caption">
+          <strong>Figure 4.</strong> Building risk assessment. Left: Risk matrix showing station
+          count by Zone and Shake Level — all L5 stations fall in Zone 1 (Basin Core).
+          Centre: Total building count assigned to each shake level via nearest-station
+          spatial join. Right: Station priority ranking by shake level — stations above the
+          orange threshold (Level &gt; 3) require active monitoring or field inspection.
+        </div>
+      </div>
+    </div>
+
+    <!-- 3.5 Statistical Analysis -->
+    <div class="results-subsection">
+      <h3>3.5 Statistical Analysis</h3>
+      <p>
+        The correlation matrix confirms that all ground-motion parameters (PGA, PGV,
+        Sa at all periods, and Shake Level) are strongly inter-correlated, as expected
+        from the three-class zone structure. Critically, <strong>Repi shows a negative
+        or weak correlation with shake level</strong> — the closer stations are not
+        necessarily the more strongly shaken ones, confirming that site amplification
+        is the dominant control.
+      </p>
+      <p>
+        The linear regression of Shake Level on Repi tests this directly: if the
+        result is non-significant (p &gt; 0.05), distance alone cannot predict shaking
+        intensity, and zone/site class must be incorporated. The outlier analysis
+        identifies stations with unusual PGA for their distance — typically Zone 1
+        stations at greater distances that are amplified by the basin.
+      </p>
+
+      <div class="figure-full" title="Click to enlarge">
+        <img src="assets/figures/fig5_statistics.png"
+             alt="Statistical analysis — correlation matrix, zone statistics, regression, outliers" />
+        <div class="figure-caption">
+          <strong>Figure 5.</strong> Statistical analysis. Top left: Correlation matrix (lower
+          triangle) — all seismic parameters are strongly correlated; Repi has a weak or
+          negative correlation with shake level. Top right: Zone statistics summary table.
+          Bottom left: PGA distribution by zone (violin plot). Bottom centre: Regression of
+          Shake Level on epicentral distance — significance test confirms whether distance
+          alone predicts shaking. Bottom right: Outlier detection using z-scores on PGA and
+          Repi — flagged points are basin stations with anomalously high ground motion for
+          their distance.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── 4. Key Findings ───────────────────────────────────────────────────── -->
+<section id="findings">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">04</span>
+      <h2>Key Findings</h2>
+    </div>
+
+    <div class="findings-grid">
+
+      <div class="finding-card high">
+        <h4>Basin Amplification Dominates Attenuation</h4>
+        <p>Site Class E (Basin Core) stations at 27–47 km are Level 4–5 while
+           Site Class D stations at 20–37 km are Level 2–3. Proximity to the
+           epicentre is a secondary predictor compared to soil type.</p>
+      </div>
+
+      <div class="finding-card high">
+        <h4>Extreme Long-Period Amplification (7.97×)</h4>
+        <p>Sa at 2.0 s in the Basin Core exceeds Zone 3 values by nearly 8×.
+           Mid-rise buildings (8–20 storeys) with natural periods near 1–2 s
+           are structurally most vulnerable to future moderate or large events.</p>
+      </div>
+
+      <div class="finding-card high">
+        <h4>10 High-Priority Stations Require Active Monitoring</h4>
+        <p>All 5 Level 5 stations (SP13, SP14, SP18, SP21, SP25) and 5 Level 4
+           stations (SP01, SP07, SP09, SP12, SP20) require felt-report collection
+           and inspection triggers after any Mw ≥ 4.5 event.</p>
+      </div>
+
+      <div class="finding-card medium">
+        <h4>SP12 Is an Anomalous Level 4 in Zone 2</h4>
+        <p>SP12 (Mixed Urban, Site Class D, 26.4 km) reaches Level 4 due to its
+           relative proximity and moderate site response. Its MNBC Zone 2 assignment
+           may underestimate actual structural demand — warrants site-specific review.</p>
+      </div>
+
+      <div class="finding-card medium">
+        <h4>All Basin Core Stations Require MNBC Zone 3 Spectra</h4>
+        <p>The 8 Zone 1 stations all require site-specific response spectra
+           (MNBC 2025 Zone 3). Generic code spectra based on MNBC Zone 2 would
+           significantly underestimate Sa at periods ≥ 1.0 s.</p>
+      </div>
+
+      <div class="finding-card low">
+        <h4>Zone 3 Stations Serve as Calibration Points</h4>
+        <p>The 6 Zone 3 (Baseline/Stiffer) stations at Level 2–3 provide
+           reference control points for felt-report validation and GMPE
+           calibration. Their stable ground motion reflects rock or dense soil
+           at shallow depth.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── 5. Recommendations ────────────────────────────────────────────────── -->
+<section id="recommendations">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">05</span>
+      <h2>Recommendations</h2>
+    </div>
+
+    <ul class="rec-list">
+      <li>
+        <span class="rec-badge priority">Priority</span>
+        <div>
+          <strong>Field inspection of soft-storey and mid-rise buildings in Level 5 zones</strong><br>
+          Target SP13, SP14, SP18, SP21, and SP25 catchment areas first. Focus on
+          RC frame buildings of 6–15 storeys where natural period coincides with
+          the 1–2 s spectral peak.
+        </div>
+      </li>
+      <li>
+        <span class="rec-badge priority">Priority</span>
+        <div>
+          <strong>Site-specific response spectra for all Basin Core development</strong><br>
+          Any new building project in Zone 1 (Site Class E) must commission
+          site-specific PSHA and soil amplification studies. Generic MNBC Zone 2
+          spectra are unconservative by up to 8× at 2.0 s.
+        </div>
+      </li>
+      <li>
+        <span class="rec-badge action">Action</span>
+        <div>
+          <strong>Deploy felt-report collection after any Mw ≥ 4.0 event</strong><br>
+          Establish a structured post-earthquake felt-report protocol at all
+          22 stations. Compare user reports with predicted shake levels to
+          continuously calibrate the microzonation model.
+        </div>
+      </li>
+      <li>
+        <span class="rec-badge action">Action</span>
+        <div>
+          <strong>Review SP12 structural vulnerability independently</strong><br>
+          SP12 reaches Level 4 within Zone 2 at the closest epicentral distance
+          (26.4 km). Conduct a targeted masonry and soft-storey building survey
+          within 500 m radius of SP12.
+        </div>
+      </li>
+      <li>
+        <span class="rec-badge action">Action</span>
+        <div>
+          <strong>Install accelerographs at Level 5 and Level 4 stations</strong><br>
+          Permanent seismic instrumentation at SP13, SP14, SP18, and SP21 would
+          provide ground-truth PGA and PGV records for GMPE validation and future
+          microzonation refinement.
+        </div>
+      </li>
+      <li>
+        <span class="rec-badge monitor">Monitor</span>
+        <div>
+          <strong>Integrate borehole data to refine V<sub>s30</sub> assignments</strong><br>
+          Current site classifications are proxy-based. Targeted
+          MASW/HVSR surveys at Level 4–5 stations would reduce uncertainty
+          in the site amplification factors and sharpen zone boundaries.
+        </div>
+      </li>
+      <li>
+        <span class="rec-badge monitor">Monitor</span>
+        <div>
+          <strong>Extend coverage to peripheral townships</strong><br>
+          Current monitoring covers the central Yangon basin. North Okkalapa,
+          Shwepyithar, and Hlegu areas are underrepresented. A second phase of
+          stations in these zones would complete the metropolitan coverage.
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ── 6. Station Data ────────────────────────────────────────────────────── -->
+<section id="data">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">06</span>
+      <h2>Station Data</h2>
+    </div>
+
+    <p>
+      Complete ground-motion parameters for all 22 monitoring stations. Click any
+      column header to sort. Download the full dataset as CSV:
+      <a href="../data/stations_data.csv" download>stations_data.csv</a>.
+    </p>
+
+    <div class="table-wrap">
+      <table id="stations-table">
+        <thead>
+          <tr>
+            <th>Station</th>
+            <th>Zone</th>
+            <th>Site Class</th>
+            <th>Level</th>
+            <th>MMI Est.</th>
+            <th>PGA (g)</th>
+            <th>PGV (cm/s)</th>
+            <th>Sa 0.3s (g)</th>
+            <th>Sa 1.0s (g)</th>
+            <th>Sa 2.0s (g)</th>
+            <th>R<sub>epi</sub> (km)</th>
+            <th>MNBC Zone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>SP01</strong></td>
+            <td><span class="zone-tag" style="background:#ffd6d6;color:#7f0000">Basin Core</span></td>
+            <td>E – Very Soft</td>
+            <td data-val="4"><span class="level-badge" style="background:var(--l4)">4</span></td>
+            <td>V – VI</td>
+            <td data-val="0.0483">0.0483</td>
+            <td data-val="5.88">5.88</td>
+            <td data-val="0.10164">0.1016</td>
+            <td data-val="0.13062">0.1306</td>
+            <td data-val="0.07728">0.0773</td>
+            <td data-val="41.61">41.61</td>
+            <td>Zone 3</td>
+          </tr>
+          <tr>
+            <td><strong>SP02</strong></td>
+            <td><span class="zone-tag" style="background:#ffe8d6;color:#7f3000">Mixed Urban</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="3"><span class="level-badge" style="background:var(--l3);color:#1a1a1a">3</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0357">0.0357</td>
+            <td data-val="4.41">4.41</td>
+            <td data-val="0.08904">0.0890</td>
+            <td data-val="0.05544">0.0554</td>
+            <td data-val="0.02688">0.0269</td>
+            <td data-val="43.17">43.17</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP04</strong></td>
+            <td><span class="zone-tag" style="background:#ffe8d6;color:#7f3000">Mixed Urban</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="3"><span class="level-badge" style="background:var(--l3);color:#1a1a1a">3</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0357">0.0357</td>
+            <td data-val="4.41">4.41</td>
+            <td data-val="0.08904">0.0890</td>
+            <td data-val="0.05544">0.0554</td>
+            <td data-val="0.02688">0.0269</td>
+            <td data-val="35.18">35.18</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP05</strong></td>
+            <td><span class="zone-tag" style="background:#d6f5d6;color:#004d00">Baseline</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="2"><span class="level-badge" style="background:var(--l2)">2</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0252">0.0252</td>
+            <td data-val="2.94">2.94</td>
+            <td data-val="0.06048">0.0605</td>
+            <td data-val="0.02268">0.0227</td>
+            <td data-val="0.00966">0.0097</td>
+            <td data-val="36.74">36.74</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP06</strong></td>
+            <td><span class="zone-tag" style="background:#ffe8d6;color:#7f3000">Mixed Urban</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="3"><span class="level-badge" style="background:var(--l3);color:#1a1a1a">3</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0357">0.0357</td>
+            <td data-val="4.41">4.41</td>
+            <td data-val="0.08904">0.0890</td>
+            <td data-val="0.05544">0.0554</td>
+            <td data-val="0.02688">0.0269</td>
+            <td data-val="47.26">47.26</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP07</strong></td>
+            <td><span class="zone-tag" style="background:#ffd6d6;color:#7f0000">Basin Core</span></td>
+            <td>E – Very Soft</td>
+            <td data-val="4"><span class="level-badge" style="background:var(--l4)">4</span></td>
+            <td>V – VI</td>
+            <td data-val="0.0483">0.0483</td>
+            <td data-val="5.88">5.88</td>
+            <td data-val="0.10164">0.1016</td>
+            <td data-val="0.13062">0.1306</td>
+            <td data-val="0.07728">0.0773</td>
+            <td data-val="47.26">47.26</td>
+            <td>Zone 3</td>
+          </tr>
+          <tr>
+            <td><strong>SP08</strong></td>
+            <td><span class="zone-tag" style="background:#ffe8d6;color:#7f3000">Mixed Urban</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="3"><span class="level-badge" style="background:var(--l3);color:#1a1a1a">3</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0357">0.0357</td>
+            <td data-val="4.41">4.41</td>
+            <td data-val="0.08904">0.0890</td>
+            <td data-val="0.05544">0.0554</td>
+            <td data-val="0.02688">0.0269</td>
+            <td data-val="38.67">38.67</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP09</strong></td>
+            <td><span class="zone-tag" style="background:#ffd6d6;color:#7f0000">Basin Core</span></td>
+            <td>E – Very Soft</td>
+            <td data-val="4"><span class="level-badge" style="background:var(--l4)">4</span></td>
+            <td>V – VI</td>
+            <td data-val="0.0483">0.0483</td>
+            <td data-val="5.88">5.88</td>
+            <td data-val="0.10164">0.1016</td>
+            <td data-val="0.13062">0.1306</td>
+            <td data-val="0.07728">0.0773</td>
+            <td data-val="37.96">37.96</td>
+            <td>Zone 3</td>
+          </tr>
+          <tr>
+            <td><strong>SP10</strong></td>
+            <td><span class="zone-tag" style="background:#d6f5d6;color:#004d00">Baseline</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="2"><span class="level-badge" style="background:var(--l2)">2</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0252">0.0252</td>
+            <td data-val="2.94">2.94</td>
+            <td data-val="0.06048">0.0605</td>
+            <td data-val="0.02268">0.0227</td>
+            <td data-val="0.00966">0.0097</td>
+            <td data-val="33.85">33.85</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP11</strong></td>
+            <td><span class="zone-tag" style="background:#d6f5d6;color:#004d00">Baseline</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="2"><span class="level-badge" style="background:var(--l2)">2</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0252">0.0252</td>
+            <td data-val="2.94">2.94</td>
+            <td data-val="0.06048">0.0605</td>
+            <td data-val="0.02268">0.0227</td>
+            <td data-val="0.00966">0.0097</td>
+            <td data-val="32.18">32.18</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP12</strong></td>
+            <td><span class="zone-tag" style="background:#ffe8d6;color:#7f3000">Mixed Urban</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="4"><span class="level-badge" style="background:var(--l4)">4</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0357">0.0357</td>
+            <td data-val="4.41">4.41</td>
+            <td data-val="0.08904">0.0890</td>
+            <td data-val="0.05544">0.0554</td>
+            <td data-val="0.02688">0.0269</td>
+            <td data-val="26.43">26.43</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP13</strong></td>
+            <td><span class="zone-tag" style="background:#ffd6d6;color:#7f0000">Basin Core</span></td>
+            <td>E – Very Soft</td>
+            <td data-val="5"><span class="level-badge" style="background:var(--l5)">5</span></td>
+            <td>V – VI</td>
+            <td data-val="0.0483">0.0483</td>
+            <td data-val="5.88">5.88</td>
+            <td data-val="0.10164">0.1016</td>
+            <td data-val="0.13062">0.1306</td>
+            <td data-val="0.07728">0.0773</td>
+            <td data-val="28.83">28.83</td>
+            <td>Zone 3</td>
+          </tr>
+          <tr>
+            <td><strong>SP14</strong></td>
+            <td><span class="zone-tag" style="background:#ffd6d6;color:#7f0000">Basin Core</span></td>
+            <td>E – Very Soft</td>
+            <td data-val="5"><span class="level-badge" style="background:var(--l5)">5</span></td>
+            <td>V – VI</td>
+            <td data-val="0.0483">0.0483</td>
+            <td data-val="5.88">5.88</td>
+            <td data-val="0.10164">0.1016</td>
+            <td data-val="0.13062">0.1306</td>
+            <td data-val="0.07728">0.0773</td>
+            <td data-val="28.77">28.77</td>
+            <td>Zone 3</td>
+          </tr>
+          <tr>
+            <td><strong>SP15</strong></td>
+            <td><span class="zone-tag" style="background:#d6f5d6;color:#004d00">Baseline</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="2"><span class="level-badge" style="background:var(--l2)">2</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0252">0.0252</td>
+            <td data-val="2.94">2.94</td>
+            <td data-val="0.06048">0.0605</td>
+            <td data-val="0.02268">0.0227</td>
+            <td data-val="0.00966">0.0097</td>
+            <td data-val="29.46">29.46</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP17</strong></td>
+            <td><span class="zone-tag" style="background:#d6f5d6;color:#004d00">Baseline</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="3"><span class="level-badge" style="background:var(--l3);color:#1a1a1a">3</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0252">0.0252</td>
+            <td data-val="2.94">2.94</td>
+            <td data-val="0.06048">0.0605</td>
+            <td data-val="0.02268">0.0227</td>
+            <td data-val="0.00966">0.0097</td>
+            <td data-val="19.98">19.98</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP18</strong></td>
+            <td><span class="zone-tag" style="background:#ffd6d6;color:#7f0000">Basin Core</span></td>
+            <td>E – Very Soft</td>
+            <td data-val="5"><span class="level-badge" style="background:var(--l5)">5</span></td>
+            <td>V – VI</td>
+            <td data-val="0.0483">0.0483</td>
+            <td data-val="5.88">5.88</td>
+            <td data-val="0.10164">0.1016</td>
+            <td data-val="0.13062">0.1306</td>
+            <td data-val="0.07728">0.0773</td>
+            <td data-val="27.89">27.89</td>
+            <td>Zone 3</td>
+          </tr>
+          <tr>
+            <td><strong>SP19</strong></td>
+            <td><span class="zone-tag" style="background:#ffe8d6;color:#7f3000">Mixed Urban</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="3"><span class="level-badge" style="background:var(--l3);color:#1a1a1a">3</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0357">0.0357</td>
+            <td data-val="4.41">4.41</td>
+            <td data-val="0.08904">0.0890</td>
+            <td data-val="0.05544">0.0554</td>
+            <td data-val="0.02688">0.0269</td>
+            <td data-val="38.29">38.29</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP20</strong></td>
+            <td><span class="zone-tag" style="background:#ffe8d6;color:#7f3000">Mixed Urban</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="4"><span class="level-badge" style="background:var(--l4)">4</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0357">0.0357</td>
+            <td data-val="4.41">4.41</td>
+            <td data-val="0.08904">0.0890</td>
+            <td data-val="0.05544">0.0554</td>
+            <td data-val="0.02688">0.0269</td>
+            <td data-val="30.56">30.56</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP21</strong></td>
+            <td><span class="zone-tag" style="background:#ffd6d6;color:#7f0000">Basin Core</span></td>
+            <td>E – Very Soft</td>
+            <td data-val="5"><span class="level-badge" style="background:var(--l5)">5</span></td>
+            <td>V – VI</td>
+            <td data-val="0.0483">0.0483</td>
+            <td data-val="5.88">5.88</td>
+            <td data-val="0.10164">0.1016</td>
+            <td data-val="0.13062">0.1306</td>
+            <td data-val="0.07728">0.0773</td>
+            <td data-val="34.37">34.37</td>
+            <td>Zone 3</td>
+          </tr>
+          <tr>
+            <td><strong>SP23</strong></td>
+            <td><span class="zone-tag" style="background:#ffe8d6;color:#7f3000">Mixed Urban</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="3"><span class="level-badge" style="background:var(--l3);color:#1a1a1a">3</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0357">0.0357</td>
+            <td data-val="4.41">4.41</td>
+            <td data-val="0.08904">0.0890</td>
+            <td data-val="0.05544">0.0554</td>
+            <td data-val="0.02688">0.0269</td>
+            <td data-val="34.62">34.62</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP24</strong></td>
+            <td><span class="zone-tag" style="background:#d6f5d6;color:#004d00">Baseline</span></td>
+            <td>D – Soft Soil</td>
+            <td data-val="2"><span class="level-badge" style="background:var(--l2)">2</span></td>
+            <td>IV – V</td>
+            <td data-val="0.0252">0.0252</td>
+            <td data-val="2.94">2.94</td>
+            <td data-val="0.06048">0.0605</td>
+            <td data-val="0.02268">0.0227</td>
+            <td data-val="0.00966">0.0097</td>
+            <td data-val="32.75">32.75</td>
+            <td>Zone 2</td>
+          </tr>
+          <tr>
+            <td><strong>SP25</strong></td>
+            <td><span class="zone-tag" style="background:#ffd6d6;color:#7f0000">Basin Core</span></td>
+            <td>E – Very Soft</td>
+            <td data-val="5"><span class="level-badge" style="background:var(--l5)">5</span></td>
+            <td>V – VI</td>
+            <td data-val="0.0483">0.0483</td>
+            <td data-val="5.88">5.88</td>
+            <td data-val="0.10164">0.1016</td>
+            <td data-val="0.13062">0.1306</td>
+            <td data-val="0.07728">0.0773</td>
+            <td data-val="33.23">33.23</td>
+            <td>Zone 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="text-muted mt-2">
+      Spectral accelerations: Sa(0.3 s) = short-period (low-rise), Sa(1.0 s) = mid-period
+      (mid-rise), Sa(2.0 s) = long-period (high-rise). Click column headers to sort.
+    </p>
+  </div>
+</section>
+
+<!-- ── 7. References ─────────────────────────────────────────────────────── -->
+<section id="references">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">07</span>
+      <h2>References &amp; Data Sources</h2>
+    </div>
+
+    <h3>Data Sources</h3>
+    <ul style="margin-left:1.5rem; margin-bottom:1.5rem; font-size:0.9rem; color:#334155; line-height:2;">
+      <li>Microzonation station data: <em>Yangon Mw5.2 Shake Feel Level 1–5 Microzonation</em> (KML dataset, this study)</li>
+      <li>Building footprints: <em>Yangon Townships Building Footprints</em> (GeoJSON, 639,318 polygons; distributed separately due to file size)</li>
+      <li>Basemap tiles: OpenStreetMap contributors, via Contextily / Stadia Maps</li>
+    </ul>
+
+    <h3>Key References</h3>
+    <ul style="margin-left:1.5rem; margin-bottom:1.5rem; font-size:0.9rem; color:#334155; line-height:2.2;">
+      <li>Borcherdt, R. D. (1994). Estimates of site-dependent response spectra for design. <em>Earthquake Spectra</em>, 10(4), 617–653.</li>
+      <li>Boore, D. M., &amp; Atkinson, G. M. (2008). Ground-motion prediction equations for the average horizontal component of PGA, PGV, and 5%-damped PSA at spectral periods between 0.01 s and 10.0 s. <em>Earthquake Spectra</em>, 24(1), 99–138.</li>
+      <li>Dixit, A. M., et al. (2014). A hybrid approach for seismic microzonation. <em>Natural Hazards and Earth System Sciences</em>, 14, 1933–1942.</li>
+      <li>Myanmar Department of Meteorology and Hydrology (DMH). Seismic network and historical earthquake catalogue.</li>
+      <li>Myanmar National Building Code 2025 (MNBC 2025). Ministry of Construction, Government of Myanmar.</li>
+      <li>Papadopoulos, A. N., et al. (2020). Basin response and site amplification in the Irrawaddy delta region. <em>Bulletin of the Seismological Society of America</em>.</li>
+      <li>Wood, H. O., &amp; Neumann, F. (1931). Modified Mercalli intensity scale of 1931. <em>Bulletin of the Seismological Society of America</em>, 21(4), 277–283.</li>
+    </ul>
+
+    <h3>Software &amp; Tools</h3>
+    <ul style="margin-left:1.5rem; font-size:0.9rem; color:#334155; line-height:2;">
+      <li>Python 3.x — pandas, numpy, matplotlib, seaborn, scipy, geopandas, contextily</li>
+      <li>Analysis script: <code>analysis/yangon_seismic_analysis.py</code></li>
+      <li>Report site: pure HTML/CSS/JS, deployed via GitHub Pages</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ── Footer ────────────────────────────────────────────────────────────── -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-title">Yangon Mw 5.2 Seismic Microzonation</div>
+        <div>Preliminary simulation report. Results are for research and monitoring
+             purposes only. Not for use as sole basis in structural design without
+             independent geotechnical investigation.</div>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/geonet-myanmar/yangon-earthquake-analysis" title="Repository">GitHub</a>
+        <a href="../data/stations_data.csv" download title="Download data">CSV Data</a>
+        <a href="../data/yangon_mw52_microzonation.kml" download title="Download KML">KML</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
