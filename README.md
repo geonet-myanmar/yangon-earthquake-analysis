@@ -140,6 +140,9 @@ Station data (KML) provided by the **Geographical Society of Myanmar**.
 Please credit the Geographical Society of Myanmar in any publication or
 derivative work that uses this dataset.
 
+Building footprint data is sourced from the **Global Building Atlas** by Zhu-XLab. 
+Please refer to the [GlobalBuildingAtlas repository](https://github.com/zhu-xlab/GlobalBuildingAtlas) for dataset details and attribution.
+
 ---
 
 ## Disclaimer
